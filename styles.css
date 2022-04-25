@@ -1,0 +1,83 @@
+body {
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  color: hsl(193, 38%, 86%);
+  font-size: 1.75rem;
+  background-color: hsl(218, 23%, 16%);
+}
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  margin-bottom: 0;
+  font-weight: 800;
+}
+.card {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  max-width: 21.375rem;
+  background-color: hsl(217, 19%, 24%);
+  padding: 1.625rem;
+  border-radius: 15px;
+}
+.divider {
+  padding-bottom: 4.5625rem;
+}
+.divider img {
+  max-width: 100%;
+}
+.shuffle-container {
+  margin: 0 auto;
+  margin-top: -10%;
+}
+
+#shuffle {
+  width: 4.125rem;
+  height: 4.125rem;
+  border: none;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  transition: all 0.5s ease-out;
+}
+
+#shuffle:hover {
+  cursor: pointer;
+}
+
+#shuffle img {
+  width: 50%;
+}
+
+/* Styles for pc */
+@media (min-width: 992px) {
+  .card {
+    max-width: 33.875rem;
+    max-height: 20.6875rem;
+    padding: 3.1875rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  p {
+    margin: 3.5rem auto;
+  }
+  .divider {
+    padding: 0;
+  }
+  .shuffle-container {
+    margin-top: -3%;
+  }
+}
+@media (min-width: 1440px) {
+  .shuffle-container {
+    margin-top: -1.75%;
+  }
+}
