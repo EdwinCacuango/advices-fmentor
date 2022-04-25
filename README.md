@@ -23,26 +23,25 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 ### The challenge
 
 Users should be able to:
-
-- 
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Generate a new piece of advice by clicking the dice icon 
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](/design/Screenshot%202022-04-24%20at%2020-47-52%20Frontend%20Mentor%20Advice%20generator%20app.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Report](https://www.frontendmentor.io/solutions/simple-fetch-with-js-r1BF3_mBq)
+- Live Site URL: [Vercel app](https://advices-fmentor.vercel.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
